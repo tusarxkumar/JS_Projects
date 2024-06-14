@@ -1,0 +1,119 @@
+html {
+    font-family: 'Arial', sans-serif;
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    background-color: #121212;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#wrapper {
+    width: 100%;
+    max-width: 450px;
+    padding: 20px;
+    background-color: #1e1e1e;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 2rem;
+    background-color: #2196F3;
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+p {
+    font-size: 1rem;
+    margin: 10px 0;
+}
+
+.guessField, .guessSubmit {
+    display: block;
+    width: calc(100% - 20px);
+    margin: 20px auto;
+}
+
+#guess {
+    font-size: 1.5rem;
+    margin-top: 20px;
+    color: #4CAF50;
+}
+
+#guessField {
+    color: #ffffff;
+    background-color: #333333;
+    width: 100%;
+    height: 50px;
+    font-size: 1.25rem;
+    border: 2px solid #4CAF50;
+    border-radius: 5px;
+    text-align: center;
+    padding: 5px;
+}
+
+#guessField:focus {
+    border-color: #2196F3;
+    outline: none;
+}
+
+#subt {
+    background-color: #FF5722;
+    color: #ffffff;
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 1.25rem;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#subt:hover {
+    background-color: #E64A19;
+}
+
+.resultParas p {
+    margin: 10px 0;
+}
+
+.lastResult, .guesses {
+    display: inline-block;
+    padding: 7px;
+    background-color: #757575;
+    border-radius: 5px;
+    margin: 0 5px;
+}
+
+.lowOrHi {
+    font-size: 1.2rem;
+    color: #FFEB3B;
+    margin-top: 10px;
+}
+.button {
+    cursor: pointer;
+    background-color: #2196F3;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #1976D2;
+}
