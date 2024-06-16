@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to right, #0d79a8, #000000, #001620);
+    color: white;
+    text-align: center;
+}
+
+.main {
+    width: 80%;
+    height: auto;
+    background: url('image.jpg') no-repeat center center/cover;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+}
+
+.overlay {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    /* background-color: rgba(0, 0, 0, 0.7); */
+    padding: 20px;
+}
+
+.title {
+    margin-top: 10px;
+    color: white;
+    font-size: 2.5rem;
+}
+
+.col {
+    margin-top: 20px;
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+
+.col div {
+    width: 150px;
+    text-align: center;
+}
+
+input {
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-color: transparent;
+    border-radius: 10px;
+    height: 50px;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+label {
+    font-size: 1.2rem;
+}
+
+@keyframes celebrate {
+    0% { transform: scale(1); opacity: 1; }
+    100% { transform: scale(1.2); opacity: 0; }
+}
+
+.celebrate {
+    font-size: 3rem;
+    animation: celebrate 2s ease-out;
+    color: gold;
+    margin-top: 20px;
+}
