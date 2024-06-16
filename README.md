@@ -1,5 +1,6 @@
 <h1><u> Simple projects using html-css-js </u></h1>
-<h1> <a href='https://ibb.co/album/Q9s6N7' target="_blank">All projects images are available here. Check it out </a></h1>
+<h1> <a href="https://ibb.co/album/Q9s6N7" target="_blank">All projects images are available here. Check it out </a></h1>
+
 <h3> 1. Colour Scheme Switcher </h3>
 <p> - On clicking on one of the colors above to change the background color of this page!</p>
 
