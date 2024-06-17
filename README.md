@@ -1,19 +1,21 @@
 <h1><u> Simple projects using html-css-js </u></h1>
+<h1> <a href="https://ibb.co/album/Q9s6N7" target="_blank">All projects images are available here. Check it out </a></h1>
 
-<h3> 1. Colour Scheme Switcher-On clicking on one of the colors above to change the background color of this page! </h3>
-   
-![Screenshot 2024-06-09 115310](https://github.com/tusarxkumar/JS_Projects/assets/143640625/0fe2b1f4-747f-41c4-a34b-224dd130d5fa)
+<h3> 1. Colour Scheme Switcher </h3>
+<p> - On clicking on one of the colors above to change the background color of this page!</p>
 
-<h3> 2. BMI Calculator - It calculates the Body-Mass Index from height and weight follwed by BMI Weight Guide. </h3>
-   
-![Screenshot 2024-06-09 115344](https://github.com/tusarxkumar/JS_Projects/assets/143640625/328cdb0c-280e-4ddb-8b62-2e3211f7cc88)
+<h3> 2. BMI Calculator </h3>
+<p> - It calculates the Body-Mass Index from height and weight follwed by BMI Weight Guide.</p>
 
-<h3> 3. Digital Clock - It shows your current local date and time.</h3>
+<h3> 3. Digital Clock </h3>
+<p>- It shows your current local date and time.</p>
 
-![image](https://github.com/tusarxkumar/JS_Projects/assets/143640625/4e7de9c7-bd61-4624-b335-7aba8675bd34)
+<h3> 4. Number Guessing Game</h3>
+<p> - Try and guess a random number between 1 and 100.</p>
+<p> - You have 10 attempts to guess the right number.</p>
 
-<h3>Number Guessing Game</h3>
-<p>Try and guess a random number between 1 and 100.</p>
-<p>You have 10 attempts to guess the right number.</p>
+<h3> 5. Countdown timer</h3>
+<p> - Please set your preferred timing. The countdown will begin and indicate 'it's time' upon completion.</p>
 
-![Screenshot 2024-06-14 204919](https://github.com/tusarxkumar/JS_Projects/assets/143640625/7045f431-9c27-4b2d-977b-914addb25adb)
+<h3> 6. Random password generator</h3>
+<p> - You can generate a password randomly by selecting your preferred criteria. Simply check the boxes according to your requirements. Additionally, you have the option to switch between dark and light modes for your interface.</p>
